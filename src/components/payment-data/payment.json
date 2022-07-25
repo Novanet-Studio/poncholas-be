@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_payment_data_payments",
+  "info": {
+    "displayName": "payment",
+    "icon": "calculator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "apellido": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "confirmacion": {
+      "type": "string"
+    },
+    "fecha_pago": {
+      "type": "date"
+    },
+    "monto": {
+      "type": "decimal"
+    }
+  }
+}

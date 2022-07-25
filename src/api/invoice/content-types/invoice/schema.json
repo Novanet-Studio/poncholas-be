@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "invoices",
+  "info": {
+    "singularName": "invoice",
+    "pluralName": "invoices",
+    "displayName": "Invoices",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "paid": {
+      "type": "boolean"
+    },
+    "amount": {
+      "type": "decimal"
+    },
+    "products": {
+      "type": "component",
+      "repeatable": true,
+      "component": "products.product-buyed"
+    },
+    "payment_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "user_id": {
+      "type": "integer"
+    },
+    "shippingAddress": {
+      "type": "json"
+    },
+    "fullName": {
+      "type": "string"
+    },
+    "cardType": {
+      "type": "string",
+      "visible": false
+    },
+    "cardKind": {
+      "type": "string",
+      "visible": false
+    },
+    "cardLast": {
+      "type": "string",
+      "visible": false
+    },
+    "payment_info": {
+      "type": "component",
+      "repeatable": true,
+      "component": "payment-data.payment"
+    },
+    "payment_method": {
+      "type": "string"
+    }
+  }
+}

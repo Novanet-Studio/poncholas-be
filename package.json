@@ -1,0 +1,31 @@
+{
+  "name": "poncholas-be",
+  "private": true,
+  "version": "1.0",
+  "description": "Strapi para Poncholas",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.2.3",
+    "@strapi/plugin-users-permissions": "4.2.3",
+    "@strapi/provider-upload-cloudinary": "^4.2.3",
+    "@strapi/strapi": "4.2.3",
+    "pg": "8.6.0"
+  },
+  "author": {
+    "name": "Fredy Polania <fpolania@novanet.studio>"
+  },
+  "strapi": {
+    "uuid": "312bd52a-be6d-4b62-abce-29421d043155"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

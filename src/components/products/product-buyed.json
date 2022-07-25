@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_products_product_buyeds",
+  "info": {
+    "displayName": "productBuyed",
+    "icon": "tag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "quantity": {
+      "type": "integer"
+    },
+    "id_product": {
+      "type": "integer"
+    },
+    "name_product": {
+      "type": "string"
+    }
+  }
+}
