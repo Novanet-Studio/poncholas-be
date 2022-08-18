@@ -38,18 +38,6 @@
     "fullName": {
       "type": "string"
     },
-    "cardType": {
-      "type": "string",
-      "visible": false
-    },
-    "cardKind": {
-      "type": "string",
-      "visible": false
-    },
-    "cardLast": {
-      "type": "string",
-      "visible": false
-    },
     "payment_info": {
       "type": "component",
       "repeatable": true,

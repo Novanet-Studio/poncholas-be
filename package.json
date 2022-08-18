@@ -1,7 +1,7 @@
 {
   "name": "poncholas-be",
   "private": true,
-  "version": "1.0",
+  "version": "1.0.0",
   "description": "Strapi para Poncholas",
   "scripts": {
     "develop": "strapi develop",
@@ -15,7 +15,8 @@
     "@strapi/plugin-users-permissions": "4.2.3",
     "@strapi/provider-upload-cloudinary": "^4.2.3",
     "@strapi/strapi": "4.2.3",
-    "pg": "8.6.0"
+    "pg": "8.6.0",
+    "redis": "^4.0.6"
   },
   "author": {
     "name": "Fredy Polania <fpolania@novanet.studio>"

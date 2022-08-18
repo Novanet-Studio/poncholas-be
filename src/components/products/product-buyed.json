@@ -10,11 +10,20 @@
     "quantity": {
       "type": "integer"
     },
-    "id_product": {
-      "type": "integer"
+    "fabric": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::fabric.fabric"
     },
-    "name_product": {
-      "type": "string"
+    "size": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::size.size"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::product.product"
     }
   }
 }
